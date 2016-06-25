@@ -14,6 +14,27 @@
 #
 # Contributors list :
 #
-#    William Bonnet 	wllmbnnt@gmail.com
+#    William Bonnet 	wbonnet@theitmakers.com
 #
 #
+
+try:
+    from setuptools import setup
+
+except ImportError:
+    from distutils.core import setup
+
+config = {
+    'description': 'Debian package dependencies analyzer',
+    'author': 'William Bonnet',
+    'url': 'https://github.com/wbonnet/apt-depends/',
+    'download_url': 'https://github.com/wbonnet/apt-depends/',
+    'author_email': 'wbonnet@theitmakers.com',
+    'version': '0.1',
+    'install_requires': ['nose'],
+    'packages': ['apt-depends'],
+    'scripts': [],
+    'name': 'apt-depends'
+}
+
+setup(**config)
