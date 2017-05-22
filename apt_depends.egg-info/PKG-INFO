@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: apt-depends
+Version: 0.1
+Summary: Debian package dependencies analyzer
+Home-page: https://github.com/wbonnet/apt-depends/
+Author: William Bonnet
+Author-email: wbonnet@theitmakers.com
+License: UNKNOWN
+Download-URL: https://github.com/wbonnet/apt-depends/
+Description: Debian package dependencies analyzer
+Platform: UNKNOWN

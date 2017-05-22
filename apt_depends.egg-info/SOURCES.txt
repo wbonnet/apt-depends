@@ -1,0 +1,8 @@
+setup.py
+apt_depends/cli.py
+apt_depends/model.py
+apt_depends.egg-info/PKG-INFO
+apt_depends.egg-info/SOURCES.txt
+apt_depends.egg-info/dependency_links.txt
+apt_depends.egg-info/requires.txt
+apt_depends.egg-info/top_level.txt
