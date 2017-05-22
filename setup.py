@@ -26,13 +26,14 @@ except ImportError:
 
 config = {
     'description': 'Debian package dependencies analyzer',
+    'long_description': 'Debian package dependencies analyzer',
     'author': 'William Bonnet',
     'url': 'https://github.com/wbonnet/apt-depends/',
     'download_url': 'https://github.com/wbonnet/apt-depends/',
     'author_email': 'wbonnet@theitmakers.com',
     'version': '0.1',
     'install_requires': ['nose'],
-    'packages': ['apt-depends'],
+    'packages': ['apt_depends'],
     'scripts': [],
     'name': 'apt-depends'
 }
